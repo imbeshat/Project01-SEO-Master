@@ -13,7 +13,7 @@ body {
 
 /* --------------- CSS for nav bar -------------- */
 section {
-	width: 80%;
+	width: 75vw;
 	margin: auto;
 }
 
@@ -72,7 +72,7 @@ li:first-child {
 
 .banner-container div h1 {
 	font-size: 55px;
-	width: 50%;
+	width: 30vw;
 	line-height: 65px;
 	color: #33295e;
 	font-weight: 600;
@@ -83,7 +83,7 @@ span {
 }
 
 p {
-	width: 33%;
+	width: 22vw;
 	margin: 25px 0;
 	font-size: 14px;
 	line-height: 20px;
@@ -93,7 +93,7 @@ p {
 .banner-container div img {
 	position: absolute;
 	width: auto;
-	height: 75%;
+	height: 75vh;
 	top: 120px;
 	right: 0;
 	bottom: 100px;
