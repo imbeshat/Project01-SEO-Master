@@ -3,12 +3,15 @@
 * {
 	margin: 0;
 	padding: 0;
+	outline: 0;
 	box-sizing: border-box;
 }
 
 body {
 	font-family: "Poppins", sans-serif;
 	max-width: 1440px;
+	margin: auto;
+	overflow: hidden;
 }
 
 /* --------------- CSS for nav bar -------------- */
@@ -55,7 +58,8 @@ li:first-child {
 	padding: 10px;
 	width: 130px;
 	height: 45px;
-	background-color: #5a5cb5;
+	margin-right: 100px;
+	background-color: #5955b3;
 	color: #ffffff;
 	border: none;
 	border-radius: 10px;
@@ -74,12 +78,12 @@ li:first-child {
 	font-size: 55px;
 	width: 30vw;
 	line-height: 65px;
-	color: #33295e;
+	color: #3c2f60;
 	font-weight: 600;
 }
 
 span {
-	color: #7475da;
+	color: #5955b3;
 }
 
 p {
@@ -87,14 +91,17 @@ p {
 	margin: 25px 0;
 	font-size: 14px;
 	line-height: 20px;
-	color: #9fa6a7;
+	color: #949494;
+}
+
+.banner-container:last-child {
+	position: relative;
 }
 
 .banner-container div img {
 	position: absolute;
-	width: auto;
-	height: 75vh;
-	top: 120px;
+	height: 70vh;
+	top: -60px;
 	right: 0;
 	bottom: 100px;
 }
@@ -105,7 +112,7 @@ p {
 	width: 200px;
 	height: 60px;
 	font-weight: 500;
-	background-color: #5a5cb5;
+	background-color: #5955b3;
 	color: #ffffff;
 	border: none;
 	border-radius: 10px;
