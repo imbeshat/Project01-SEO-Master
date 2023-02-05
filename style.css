@@ -118,3 +118,57 @@ p {
 	border-radius: 10px;
 	letter-spacing: 0.75px;
 }
+
+/* responsiveness */
+@media screen and (max-width: 1600px) and (min-width: 1470px) {
+	.banner-container div img {
+		height: 60vh;
+	}
+}
+
+@media screen and (max-width: 1469px) and (min-width: 1300px) {
+	.banner-container div img {
+		height: 50vh;
+	}
+	.banner-container div h1 {
+		width: 30vw;
+	}
+}
+@media screen and (max-width: 1299px) and (min-width: 1100px) {
+	.banner-container {
+		margin-top: 90px;
+	}
+	.banner-container div img {
+		height: 40vh;
+		top: 20px;
+	}
+	.banner-container div h1 {
+		width: 23vw;
+		font-size: 40px;
+	}
+}
+@media screen and (max-width: 1101px) {
+	.banner-container {
+		display: flex;
+		flex-direction: column-reverse;
+		margin-top: 40px;
+	}
+	.banner-container div img {
+		height: 30vh;
+		top: 0;
+		left: 200px;
+	}
+	.banner-container div h1 {
+		width: 30vw;
+		font-size: 40px;
+	}
+	.banner-container div p {
+		width: 25vw;
+	}
+	.banner-container div {
+		margin-top: 19%;
+		margin-left: 250px;
+		width: 60vw;
+		font-size: 40px;
+	}
+}
